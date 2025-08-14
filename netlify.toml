@@ -1,11 +1,4 @@
-# Este comando informa ao Netlify para usar a versão mais recente do seu sistema de build.
-[build]
-  # Diretório onde estão os seus ficheiros HTML (a raiz, neste caso).
-  publish = "."
-  # Comando explícito para instalar as dependências Python.
-  command = "pip install -r requirements.txt"
-
-# A configuração da pasta de funções que já tínhamos.
+# Deixe o Netlify descobrir o comando de build e o diretório de publicação.
+# Apenas especificamos onde estão as nossas funções.
 [functions]
   directory = "netlify/functions/"
-
