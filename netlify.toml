@@ -1,0 +1,3 @@
+[build]
+  # Esta linha diz explicitamente ao sistema de build onde encontrar as funções.
+  functions = "netlify/functions"
