@@ -1,4 +1,0 @@
-# Deixe o Netlify descobrir o comando de build e o diretório de publicação.
-# Apenas especificamos onde estão as nossas funções.
-[functions]
-  directory = "netlify/functions/"
